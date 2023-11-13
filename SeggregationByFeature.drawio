@@ -1,9 +1,159 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T22:03:58.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="y6v5lyf788yi3BmHR4qK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T22:55:02.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lI1KwfCx9OLd_RPiBwlz" version="22.1.0" type="github">
   <diagram name="Page-1" id="wxxaoA3hYLvJC0KUvrLp">
-    <mxGraphModel>
+    <mxGraphModel dx="6309" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-1" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3.1 Registracija naloga (uloge: NK)&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Ukoliko korisnik nema nalog na sistemu potrebno je da napravi nalog. Registracija obuhvata&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;unos email adrese, lozinke, imena, prezimena, adrese stanovanja i broja telefona. Lozinka se&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;unosi u dva polja da bi se otežalo prijavljivanje grešaka prilikom odabira lozinke.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Korisnik bira da li će se registrovati&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;kao vlasnik ili gost.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="820" y="52.5" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-2" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.2 Prijava na sistem (uloge: NK)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br/&gt;Ukoliko korisnik ima nalog na sistemu i ako je aktivan ima mogućnost prijave na sistem. Prijava&lt;br/&gt;se vrši unošenjem email-a i lozinke.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="132.5" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-3" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.3 Upravljanje nalogom (uloge: V, G, A)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Korisnik može menjati sve lične podatke na stranici za prikaz profila. Pored ličnih podataka ima mogućnost i promene lozinke.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="262.5" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-4" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.4 Brisanje naloga (uloge: V, G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Gost može obrisati nalog ako nema aktivnih rezervacija. Vlasnik može obrisati nalog samo ako&lt;br&gt;nema aktivnih rezervacija u budućnosti ni za jedan smeštaj kojim upravlja.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="106.25" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-5" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.5 Kreiranje smeštaja (uloge: V)&lt;/b&gt;&lt;br&gt;Vlasnik ima mogućnost kreiranja novog smeštaja. Za smeštaj je potrebno uneti naziv, opis,&lt;br&gt;lokaciju, pogodnosti (na primer wifi, kuhinja, klima, besplatan parking itd.), fotografije smeštaja,&lt;br&gt;minimalan i maksimalan broj gostiju i tip smeštaja (studio, soba itd.). &amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="790" y="547.5" width="210" height="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-7" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.21 Notifikacije (uloge: V, G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Vlasnik treba da dobije notifikacije kada:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;● Neko kreira zahtev za rezervaciju&lt;br/&gt; ● Neko otkaže rezervaciju&lt;br/&gt; ● Neko ga oceni&lt;br/&gt; ● Neko oceni njegov smeštaj&lt;br/&gt;Gost treba da dobije notifikacije kada:&lt;br/&gt; ● Vlasnik odgovori na zahtev za rezervaciju&lt;br/&gt;Svaki korisnik može uključiti ili isključiti notifikacije na svom profilu, pojedinačno za svaki tip&lt;br/&gt;notifikacije.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="1220" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-8" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.20 Odobravanje komentara i ocena (uloge: A)&lt;br/&gt;&lt;/b&gt;Administrator može da pregleda ostavljene komentare i ocene. Ukoliko je neki komentar&lt;br/&gt;prijavljen od strane vlasnika ima mogućnost da obriše taj komentar i ocenu (obrisana ocena&lt;br/&gt;neće ulaziti u računanje srednje ocene).&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1195" y="1140" width="270" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-9" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.19 Komentarisanje i ocenjivanje smeštaja (uloge: G)&lt;br/&gt;&lt;/b&gt;Gost može da napiše komentar i oceni smeštaj ocenom od 1 do 5 samo ako je tu odseo barem&lt;br/&gt;jednom u prošlosti. Rok za postavljanje komentara i ocene je 7 dana od završetka rezervacije.&lt;br/&gt;Komentar i ocenu administrator mora da odobri da bi se prikazali na stranici smeštaja. Gost&lt;br/&gt;može da obriše komentar i ocenu.&lt;br/&gt;Moguće je videti svaki komentar i ocenu (ko ju je dao i kada), kao i srednju ocenu smeštaja.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="1000" width="530" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-10" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.18 Prijavljivanje komentara i ocene (uloge: V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Vlasnik može da prijavi adminu komentar i ocenu ukoliko smatra da nije primeren.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1560" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-11" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.17 Komentarisanje i ocenjivanje vlasnika-ova (uloge: G)&lt;br/&gt;&lt;/b&gt;Gost može da napiše komentar i oceni vlasnika ocenom od 1 do 5 samo ako je u prošlosti imao&lt;br/&gt;bar jednu rezervaciju u nekom njegovom smeštaju koju nije otkazao. Gost može da obriše&lt;br/&gt;komentar i ocenu.&lt;br/&gt;Moguće je videti svaki komentar i ocenu (ko ju je dao i kada), kao i srednju ocenu vlasnika.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-915" y="1140" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-12" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.16 Pregled i otkazivanje rezervacije (uloge: G i V)&lt;br/&gt;&lt;/b&gt;Gost ima listu svojih rezervacija. Gost može otkazati bilo koju rezervaciju koja mu je prihvaćena,&lt;br/&gt;do predviđenog roka koju definiše vlasnik (3.6). U tom slučaju smeštaj postaje ponovo slobodan&lt;br/&gt;za te datume. Vlasnik čim prihvati rezervaciju sve ostale rezervacije na čekanju koje imaju&lt;br/&gt;preklapanja sa prihvaćenom rezervacijom se automatski odbijaju.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1800" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-13" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.15 Potvrda rezervacije (uloge: V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ako je aktivirana automatska potvrda, svaki zahtev se prihvata čim pristigne. Ako je aktivna&lt;br/&gt;ručna potvrda, vlasnik može da prihvati ili odbije zahtev. Ako se zahtev potvrdi, svi ostali zahtevi&lt;br/&gt;čiji datumi se preklapaju sa prihvaćenim zahtevom treba da budu automatski odbijeni.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1980" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-14" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.14 Brisanje zahteva (uloge: G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ukoliko zahtev nije prihvaćen gost može da ga obriše i smeštaj postaje ponovo slobodan za taj&lt;br/&gt;period.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1990" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-15" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.13 Pregled i filtriranje zahteva (uloge: G, V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Gost ima listu svih svojih zahteva, dok vlasnik ima listu svih zahteva za njegove smeštaje (uz&lt;br/&gt;svaki zahtev mu se za gosta prikazuje koliko puta u prošlosti je otkazao neku rezervaciju na&lt;br/&gt;platformi). Zahtevi mogu da se pretražuju i filtriraju. Pretraga se radi po nazivu smeštaja i&lt;br/&gt;terminu zahteva, dok se filtriranje radi po statusu (čekanje, prihvaćen, odbijen).&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1800" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-16" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.12 Definisanje načina potvrde rezervacije (uloge: V)&lt;br/&gt;&lt;/b&gt;Vlasnik za neki smeštaj može odabrati automatsku ili ručnu potvrdu rezervacije. Ako je&lt;br/&gt;aktivirana automatska potvrda, svaki zahtev se prihvata čim pristigne. Ako je aktivna ručna&lt;br/&gt;potvrda, vlasnik može da prihvati ili odbije zahtev. Kada se kreira smeštaj, inicijalno je&lt;br/&gt;postavljeno ručno prihvatanje zahteva.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="900" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-17" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.11 Zahtevi za rezervaciju smeštaja (uloge: G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Svaki zahtev mora da sadrži smeštaj, početni i krajnji datum rezervacije i broj gostiju. Kada se&lt;br&gt;zahtev potvrdi od strane vlasnika smeštaja, kreira se rezervacija i niko drugi ne može da šalje&lt;br&gt;zahtev za isti smeštaj u istom vremenskom intervalu. Za neki smeštaj može postojati više&lt;br&gt;zahteva u preklapajućim vremenskim intervalima koji čekaju odgovor.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1800" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-18" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.10 Detalji smeštaja (uloge: G, V, A)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Gost ima opciju da vidi stranicu sa detaljima smeštaja. Slike, opis, cenu, ocene, komentari,&lt;br&gt;mapa sa lokacijom, kalendar sa dostupnim intervalima za rezervaciju, pogodnosti koje smeštaj&lt;br&gt;nudi i sve ostale atribute smeštajne jedinice. &amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1200" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-19" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.9 Pretraga i filtriranje smeštaja (uloge: NK, V, G)&lt;/b&gt;&lt;br/&gt;Smeštaj se pretražuje prema lokaciji, broju gostiju i datumu početka i kraja putovanja. Rezultati&lt;br/&gt;treba da obuhvate sve dostupne smeštaje u zadatom intervalu koji se nalaze na traženoj lokaciji&lt;br/&gt;i mogu primiti zadati broj gostiju. Pored osnovnih informacija, za svaku nekretninu treba da se&lt;br/&gt;prikaže ukupna cena smeštaja za sva noćenja, kao i jedinična cena (po osobi po noćenju ili po&lt;br/&gt;smeštaju po noćenju) i srednja ocena smeštaja. Filtriranje omogućiti po pogodnostima koje&lt;br/&gt;smeštaj nudi, tipu smeštaja, opsegu cene.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1200" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-20" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.8 Pregled i ažuriranje smeštaja (uloge: V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Vlasnik ima listu svojih smeštaja. Za svaki smeštaj može da ažurira njegove podatke (naziv,&lt;br/&gt;opis, lokaciju, slike, pogodnosti i minimalni i maksimalni broj gostiju) vodeći računa o aktivnim&lt;br/&gt;rezervacijama. Pored ažuriranja osnovnih podataka smeštaja može i da definiše dostupnost i&lt;br/&gt;cenu smeštaja (3.6) kao i način potvrde rezervacije (3.12). Administrator treba da odobri sve&lt;br/&gt;promene.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="900" width="310" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-21" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.7 Odobravanje smeštaja (uloge: A)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Administrator ima mogućnost pregledanja, odobravanje i odbijanja novih i izmenjenih smeštaja.&lt;br/&gt;Ukoliko je sve u redu sa smeštajem, administrator ga odobrava nakon čega postaje dostupan&lt;br/&gt;za rezervaciju.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="900" width="290" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-22" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.6 Definisanje dostupnosti, cene smeštaja i roka za rezervaciju (uloge: V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Potrebno je omogućiti definisanje i izmenu termina kada je neki smeštaj dostupan. On se može&lt;br/&gt;rezervisati samo za vremenski interval kada je dostupan i nije već zauzet. Pored toga, cena&lt;br/&gt;smeštaja može biti promenljiva. Na primer ona može biti veća u letnjim mesecima, vikendom ili&lt;br/&gt;za vreme praznika. Omogućiti vlasniku da definiše ovakve razlike u ceni. Cena može da se&lt;br/&gt;zada po gostu ili po celoj smeštajnoj jedinici, a vlasnik bira jednu od te dve mogućnosti na nivou&lt;br/&gt;nekretnine. Dostupnost smeštaja i cena mogu se menjati za neki interval samo ako u njemu&lt;br/&gt;nema rezervacija. Vlasnik može da definiše rok do kada može da se otkaže rezervacija.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="730" width="530" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-24" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.24 Izveštaji (uloge: V)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Vlasnik ima mogućnost da na osnovu zadatog perioda dobije izveštaje o broju rezervacija i&lt;br/&gt;ukupan profit koji je svaki od njegovih smeštaja ostvario u zadatom periodu. Izveštaje je&lt;br/&gt;potrebno vizualizovati. Vlasnik ima mogućnost da za izabran smeštaj dobije izveštaj o broju&lt;br/&gt;rezervacija i ukupan profit koji je ostvario u svakom mesecu u jednoj godini. Izveštaje je moguće&lt;br/&gt;preuzeti i u PDF formatu.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="570" width="285" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-25" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.23 Blokiranje korisnika (uloge: A)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Administrator može da pregleda zahteve za prijavu korisnika i blokira korisnike. Ukoliko je&lt;br/&gt;korisnik gost, otkazuju mu se rezervacije i nema pravo prijave na sistem.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-675" y="1560" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-26" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.22 Prijavljivanje korisnika (uloge: V, G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Vlasnik može da prijavi gosta i ostavi razlog prijave samo ako je gost u prošlosti imao bar jednu&lt;br/&gt;rezervaciju u nekom od njegovih smeštaja. Takođe gost može da prijavi vlasnika ako je bio gost&lt;br/&gt;u njegovom smeštaju.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-865" y="1560" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-27" value="USER MANAGMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="35" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-28" value="ACCOMMODATION MANAGEMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="175" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-29" value="RESERVATION MANAGEMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="340" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-30" value="FEEDBACK MANAGEMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="35" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fVZ4tSZ_obKM28BY9sw6-31" target="fVZ4tSZ_obKM28BY9sw6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fVZ4tSZ_obKM28BY9sw6-31" target="fVZ4tSZ_obKM28BY9sw6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-31" value="ANALYTICS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="287.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-32" value="AUTENTIFICATION" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="97.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-33" value="TECHNICAL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="295" width="175" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-34" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;AKTIVACIJA NALOGA(3.1)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Registracija&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;obuhvata i slanje email-a na datu adresu sa linkom za aktivaciju korisnika. Korisnik ne može da&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;se prijavi na aplikaciju dok se njegov nalog ne aktivira posećivanjem linka koji je dobio u emailu. Uzeti u obzir da aktivacioni link traje 24h, i ukoliko korisnik ne aktivira nalog posećivanjem&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;linka u tih 24h, moraće da ponovi čitav postupak registracije.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="830" y="237.5" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-35" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;BRISANJE SMESTAJA(3.4)&lt;br&gt;&lt;/b&gt;Kada vlasnik obriše&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;nalog, uklanjaju se i svi smeštaji koje je kreirao.&lt;div style=&quot;&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="223.75" width="140" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-36" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;DEFINISANJE DOSTUPNOSTI I CENE (3.5)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Prilikom kreiranja smeštaja&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;potrebno je definisati i dostupnost i cenu smeštaja.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="567.5" width="110" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-37" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;AKTIVACIJA SMESTAJA(3.5)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;Smeštaj će postati dostupan za rezervaciju&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;onog trenutka kada administrator odobri smeštaj.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="567.5" width="110" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-38" value="CRUD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="248.75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-39" value="SEARCH&lt;br&gt;&amp;amp;&lt;br&gt;VIEW(read)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="252.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-40" value="REVIEW&lt;br&gt;&amp;amp;&lt;br&gt;APPROVAL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="252.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-41" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;ZAHTEV ZA REZERVACIJU(3.10)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Odavde je moguće kreirati zahtev za rezervaciju&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3.11smeštaja (Dostupno je samo gostu).&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1350" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVZ4tSZ_obKM28BY9sw6-20" target="fVZ4tSZ_obKM28BY9sw6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-44" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;BRISANJE ZAZHTEVA(3.11)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Gost koji je kreirao zahtev&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;za rezervaciju može ga obrisati pre nego što dobije odgovor.&amp;nbsp;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1990" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-45" value="SEARCH&amp;nbsp;&lt;br&gt;&amp;amp;&amp;nbsp;&lt;br&gt;FILTER" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="417.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-46" value="CRUD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-695" y="97.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-47" value="REVIEW&lt;br&gt;&amp;amp;&amp;nbsp;&lt;br&gt;APPROVAL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="427.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-48" value="CANCELLATION" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="417.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-49" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;3.25 Omiljeni smeštaji (uloge: G)&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Gost ima opciju da nakon pretrage doda smeštaj u omiljene smeštaje, takođe ima mogućnost&lt;br/&gt;da pregleda listu omiljenih smeštaja.&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="840" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-51" value="REVIEW" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="106.25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVZ4tSZ_obKM28BY9sw6-52" value="REPORT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="106.25" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
